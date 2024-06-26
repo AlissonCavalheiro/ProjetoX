@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X - Festa em Quaraí, RS</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        /* Estilos adicionais inline para o exemplo */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .main-content {
+            padding: 20px 0;
+        }
+        .event-details {
+            text-align: left;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .event-details h2 {
+            color: #ff6600;
+        }
+        .countdown {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff6600;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .cta-button:hover {
+            background-color: #e55d00;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Projeto X</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#tickets">Ingressos</a></li>
+                    <li><a href="#location">Localização</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container main-content">
+        <section id="about">
+            <div class="event-details">
+                <h2>Sobre o Evento</h2>
+                <p>O Projeto X é uma festa imperdível que acontecerá no segundo sábado de outubro de 2024 na sede do Campo do Brasil em Quaraí, Rio Grande do Sul.</p>
+                <p>A atração principal será o DJ Grillo Beatz, diretamente de Pelotas e conhecido por suas performances marcantes.</p>
+            </div>
+        </section>
+
+        <section id="tickets">
+            <div class="event-details">
+                <h2>Ingressos</h2>
+                <p>Os ingressos estão disponíveis em três categorias:</p>
+                <ul>
+                    <li><strong>Open Bar:</strong> Bebida liberada durante a festa - R$90</li>
+                    <li><strong>VIP:</strong> Área privilegiada mais próxima do palco - R$70</li>
+                    <li><strong>Pista:</strong> Acesso geral - R$45</li>
+                </ul>
+                <a href="https://seu-site.com/compra-ingressos" class="cta-button">Compre seu ingresso</a>
+            </div>
+        </section>
+
+        <section id="location">
+            <div class="event-details">
+                <h2>Localização</h2>
+                <p>O evento acontecerá na sede do Campo do Brasil, em Quaraí, Rio Grande do Sul.</p>
+                <p>Endereço: Rua das Festas, 123 - Quaraí, RS</p>
+                <p>Venha e aproveite uma noite inesquecível!</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="event-details">
+                <h2>Contato</h2>
+                <p>Para mais informações, entre em contato conosco:</p>
+                <p>Email: contato@projetox.com</p>
+                <p>Telefone: (55) 1234-5678</p>
+            </div>
+        </section>
+
+        <div class="social-links">
+            <a href="https://instagram.com/projetox" target="_blank">Instagram</a>
+            <a href="https://twitter.com/projetox" target="_blank">Twitter</a>
+            <a href="https://facebook.com/projetox" target="_blank">Facebook</a>
+        </div>
+
+        <div class="countdown">
+            <h2>Contagem Regressiva para o Evento:</h2>
+            <p id="countdown"></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Projeto X. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
